@@ -7,7 +7,8 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Notification content="Hello" />
+        {/*<Notification this.content="Hello" />*/}
+        <Text>Test </Text>
       </View>
     );
   }

@@ -9,7 +9,7 @@ import { StyleSheet, Text, View } from 'react-native';
 // duration - how long to show the message
 // forwardTo - the url the app should navigate to once the timer has ended
 
-class Notification extends React.Component {
+export class Notification extends React.Component {
   render(props) {
     return (
       <View style={styles.container}>
@@ -27,4 +27,3 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Notification;
